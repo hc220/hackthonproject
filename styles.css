@@ -1,0 +1,122 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+  color: #28a745;
+}
+
+.header-buttons .btn {
+  margin-left: 10px;
+}
+
+.header-buttons .btn {
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-buttons .btn:hover {
+  color: #fff;
+  background-color: #218838;
+  /* Slightly darker green */
+}
+
+.header-buttons .btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  /* Light overlay */
+  transition: left 0.3s ease-in-out;
+}
+
+.header-buttons .btn:hover::after {
+  left: 0;
+}
+
+.hero-section {
+  background-color: #f9f9f9;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #28a745;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 20px 0;
+}
+
+.hero-buttons .btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.feature img {
+  width: 50px;
+}
+
+.feature h4 {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin: 10px 0;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Reviews Section */
+.reviews-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.review {
+  background-color: #f8f9fa;
+  border-left: 5px solid #28a745;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.review:hover {
+  transform: translateY(-5px);
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.review-author {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #28a745;
+  margin-top: 15px;
+  text-align: right;
+}

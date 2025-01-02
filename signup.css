@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-section {
+    flex: 1;
+}
+
+.left-section img {
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.right-section {
+    flex: 1;
+    padding: 2rem;
+}
+
+.right-section h1 {
+    color: #333;
+    font-size: 34px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#signup-form label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.role-selection {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+    align-items: center;
+    gap: 20px;
+}
+.role-selection label{
+    font-size: 30px;
+}
+.create-account {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-text {
+    font-size: 14px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+
+.social-login {
+    text-align: center;
+}
+.btn-flex{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.social-login p {
+    margin: 10px 0;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    background-color:rgb(242, 242, 242);
+}
+.social-button img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
